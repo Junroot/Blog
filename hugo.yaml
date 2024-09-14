@@ -1,16 +1,3 @@
 baseURL: https://example.org/
 languageCode: en-us
 title: Junroot's blog
-module:
-  noProxy: none
-  noVendor: ""
-  private: "*.*"
-  proxy: direct
-  vendorClosest: false
-  workspace: "off"
-  imports:
-    - path: github.com/Junroot/TIL
-      ignoreConfig: true
-  mounts:
-    - source: .
-      target: content
