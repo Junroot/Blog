@@ -1,3 +1,7 @@
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/Junroot/hugo-PaperMod
+	branch = junroot
 [submodule "content/posts"]
 	path = content/posts
 	url = https://github.com/Junroot/TIL
