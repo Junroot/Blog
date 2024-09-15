@@ -1,3 +1,6 @@
-[submodule "content/docs"]
-	path = content/docs
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "content/posts"]
+	path = content/posts
 	url = https://github.com/Junroot/TIL
