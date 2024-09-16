@@ -60,7 +60,6 @@ jobs:
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
-          TZ: America/Los_Angeles
         working-directory: ./content/posts
         run: |
           hugo \
@@ -69,7 +68,7 @@ jobs:
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --config="../../hugo.yaml" \
             --themesDir="../../themes" \
-            --contentDir=".." \
+            --contentDir=".."
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
