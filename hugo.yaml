@@ -6,6 +6,7 @@ pagination:
 theme: PaperMod
 
 enableRobotsTXT: true
+enableGitInfo: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
@@ -19,9 +20,6 @@ outputs:
     - RSS
     - JSON
 params:
-  profileMode:
-    enabled: true
-    imageUrl: https://avatars.githubusercontent.com/u/4648244
   socialIcons:
     - name: "Github"
       url: "https://github.com/Junroot"
