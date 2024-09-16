@@ -5,4 +5,5 @@ CONTENT_DIR="content"
 # 정적 파일 디렉토리 설정
 STATIC_DIR="$CONTENT_DIR/posts/static"
 
+mkdir "$STATIC_DIR"
 mv "$CONTENT_DIR/posts/assets" "$STATIC_DIR/assets"
