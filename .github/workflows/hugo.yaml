@@ -56,6 +56,8 @@ jobs:
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Move image files
         run: ./scripts/move-images.sh
+      - name: Setup Git
+        run: git config --global core.quotepath false
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
