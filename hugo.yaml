@@ -10,6 +10,7 @@ enableGitInfo: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+publishDir: "../../public"
 
 minify:
   disableXML: true
